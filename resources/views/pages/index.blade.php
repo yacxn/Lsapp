@@ -1,5 +1,8 @@
 @extends('layouts.app')
 @section('content')
-    <h1>{{$title}}</h1>
+    <div class="jumbotron text-center">
+    <h1>Welcome</h1>
     <p>This the Laravel application by Yacine !</p>
+    <p><a href="#" class="btn btn-primary btn-lg" role="button">Login</a></p>
+  </div>
 @endsection
